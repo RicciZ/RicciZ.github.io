@@ -458,15 +458,82 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="test-title"><a href="#test-title" class="headerlink" title="test title"></a>test title</h1><h2 id="test-subtitle"><a href="#test-subtitle" class="headerlink" title="test subtitle"></a>test subtitle</h2><p>test content</p>
+                <p>&nbsp;</p>
+<blockquote>
+<p>this is a note for the grammar of markdown</p>
+</blockquote>
+<p>&nbsp;</p>
+<h1 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># test title</span><br><span class="line">## test subtitle</span><br><span class="line">### test subsubtitle</span><br><span class="line">#### test subsubsubtitle</span><br></pre></td></tr></table></figure>
+
+<h1 id="test-title"><a href="#test-title" class="headerlink" title="test title"></a>test title</h1><h2 id="test-subtitle"><a href="#test-subtitle" class="headerlink" title="test subtitle"></a>test subtitle</h2><h3 id="test-subsubtitle"><a href="#test-subsubtitle" class="headerlink" title="test subsubtitle"></a>test subsubtitle</h3><h4 id="test-subsubsubtitle"><a href="#test-subsubsubtitle" class="headerlink" title="test subsubsubtitle"></a>test subsubsubtitle</h4><p>&nbsp;</p>
+<h1 id="Line"><a href="#Line" class="headerlink" title="Line"></a>Line</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+
 <hr>
-<p>test seperation</p>
 <hr>
-<ul>
-<li>test point</li>
+<p>title will be followed by a solid line so “#” can also be used to create a solid line, if “#” is followed by nothing</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id=""><a href="#" class="headerlink" title="#"></a>#</h2><p>compare a solid line with a bold solid line</p>
+<p>&nbsp;</p>
+<h1 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h1><ul>
+<li>“**“ makes bold <strong>test</strong></li>
+<li>“*“ makes italic <em>test</em></li>
+<li>“***“ makes italic and bold <strong><em>test</em></strong></li>
+<li>“<del>“ makes deletion line ~</del>test~~</li>
+</ul>
+<p>&nbsp;</p>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><blockquote>
+<p>use “&gt;” to create ref</p>
+</blockquote>
+<p>&nbsp;</p>
+<h1 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![name_of_the_image](the url or the local address of the image)</span><br><span class="line"></span><br><span class="line">![test](https:&#x2F;&#x2F;timgsa.baidu.com&#x2F;timg?image&amp;quality&#x3D;80&amp;size&#x3D;b9999_10000&amp;sec&#x3D;1598804661&amp;di&#x3D;8a2a051e36782dc42a71ea109d059bc7&amp;imgtype&#x3D;jpg&amp;er&#x3D;1&amp;src&#x3D;http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171112%2F2379ca6cffae4988acf804438e03d096.jpeg)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598804661&di=8a2a051e36782dc42a71ea109d059bc7&imgtype=jpg&er=1&src=http://5b0988e595225.cdn.sohucs.com/images/20171112/2379ca6cffae4988acf804438e03d096.jpeg" alt="test"></p>
+<p>&nbsp;</p>
+<h1 id="Hyperlink"><a href="#Hyperlink" class="headerlink" title="Hyperlink"></a>Hyperlink</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[description](the url)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://ricciz.github.io/">my personal page</a></p>
+<p>&nbsp;</p>
+<h1 id="List"><a href="#List" class="headerlink" title="List"></a>List</h1><h3 id="auto-numbering-and-aligning-lists"><a href="#auto-numbering-and-aligning-lists" class="headerlink" title="auto numbering and aligning lists"></a>auto numbering and aligning lists</h3><ol>
+<li>test</li>
+<li>test</li>
+<li>test</li>
+</ol>
+<h3 id="“-“-or-“-“-make-lists-with-no-orders"><a href="#“-“-or-“-“-make-lists-with-no-orders" class="headerlink" title="“-“ or “*“ make lists with no orders"></a>“-“ or “*“ make lists with no orders</h3><ul>
 <li>test point</li>
 </ul>
+<ul>
+<li>test point</li>
+</ul>
+<p>&nbsp;</p>
+<h1 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h1><ul>
+<li>use “|” to divide cols</li>
+<li>use as many “–” as the col nums as the placeholder to make a solid line and bold the headline</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">name|gender|birthday</span><br><span class="line">--|--|--</span><br><span class="line">Ricci|Male|0222</span><br><span class="line">Connie|Female|0822</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>gender</th>
+<th>birthday</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ricci</td>
+<td>Male</td>
+<td>0222</td>
+</tr>
+<tr>
+<td>Connie</td>
+<td>Female</td>
+<td>0822</td>
+</tr>
+</tbody></table>
+<p>&nbsp;</p>
+<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">write your code within &#96;&#96;&#96; then there will be a specially designed place for your code</span><br></pre></td></tr></table></figure>
 
+<p>&nbsp;</p>
+<h1 id="Special-Codes"><a href="#Special-Codes" class="headerlink" title="Special Codes"></a>Special Codes</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tab: &amp;emsp;</span><br><span class="line">enter: &amp;nbsp;</span><br></pre></td></tr></table></figure>
             </div>
             <hr/>
 
@@ -585,15 +652,12 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            test titletest subtitletest content
+                            &nbsp;
 
-test seperation
+this is a note for the grammar of markdown
 
-
-test point
-test point
-
-
+&nbsp;
+Title1234# test title## test subtitle### test subsubtitle####
                         
                     </div>
                     <div class="publish-info">
