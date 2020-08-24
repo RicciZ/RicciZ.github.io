@@ -32,6 +32,10 @@
 <meta name="generator" content="Hexo 5.1.1"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
 
 <body>
     <header class="navbar-fixed">
@@ -368,64 +372,84 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>&nbsp;</p>
+                <p> </p>
 <blockquote>
 <p>this is a note for the grammar of markdown</p>
 </blockquote>
-<p>&nbsp;</p>
-<h1 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h1><pre><code># test title
+<p> </p>
+<h1 id="title"><a class="markdownIt-Anchor" href="#title"></a> Title</h1>
+<pre class="highlight"><code class=""># test title
 ## test subtitle
 ### test subsubtitle
-#### test subsubsubtitle</code></pre>
-<h1 id="test-title"><a href="#test-title" class="headerlink" title="test title"></a>test title</h1><h2 id="test-subtitle"><a href="#test-subtitle" class="headerlink" title="test subtitle"></a>test subtitle</h2><h3 id="test-subsubtitle"><a href="#test-subsubtitle" class="headerlink" title="test subsubtitle"></a>test subsubtitle</h3><h4 id="test-subsubsubtitle"><a href="#test-subsubsubtitle" class="headerlink" title="test subsubsubtitle"></a>test subsubsubtitle</h4><p>&nbsp;</p>
-<h1 id="Line"><a href="#Line" class="headerlink" title="Line"></a>Line</h1><pre><code>---
-***</code></pre>
-<hr>
-<hr>
-<p>&nbsp;</p>
-<h1 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h1><pre><code>bold **test**
+#### test subsubsubtitle
+</code></pre>
+<h1 id="test-title"><a class="markdownIt-Anchor" href="#test-title"></a> test title</h1>
+<h2 id="test-subtitle"><a class="markdownIt-Anchor" href="#test-subtitle"></a> test subtitle</h2>
+<h3 id="test-subsubtitle"><a class="markdownIt-Anchor" href="#test-subsubtitle"></a> test subsubtitle</h3>
+<h4 id="test-subsubsubtitle"><a class="markdownIt-Anchor" href="#test-subsubsubtitle"></a> test subsubsubtitle</h4>
+<p> </p>
+<h1 id="line"><a class="markdownIt-Anchor" href="#line"></a> Line</h1>
+<pre class="highlight"><code class="">---
+***
+</code></pre>
+<hr />
+<hr />
+<p> </p>
+<h1 id="font"><a class="markdownIt-Anchor" href="#font"></a> Font</h1>
+<pre class="highlight"><code class="">bold **test**
 italic *test*
 italic and bold ***test***
-deletion line ~~test~~</code></pre>
+deletion line ~~test~~
+</code></pre>
 <ul>
 <li>bold <strong>test</strong></li>
 <li>italic <em>test</em></li>
-<li>italic and bold <strong><em>test</em></strong></li>
-<li>deletion line <del>test</del></li>
+<li>italic and bold <em><strong>test</strong></em></li>
+<li>deletion line <s>test</s></li>
 </ul>
-<p>&nbsp;</p>
-<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><blockquote>
+<p> </p>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<blockquote>
 <p>use “&gt;” to create ref</p>
 </blockquote>
-<p>&nbsp;</p>
-<h1 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h1><pre><code>![name_of_the_image](the url or the local address of the image)
+<p> </p>
+<h1 id="image"><a class="markdownIt-Anchor" href="#image"></a> Image</h1>
+<pre class="highlight"><code class="">![name_of_the_image](the url or the local address of the image)
 
-![test](https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1598804661&amp;di=8a2a051e36782dc42a71ea109d059bc7&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171112%2F2379ca6cffae4988acf804438e03d096.jpeg)</code></pre>
-<p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598804661&di=8a2a051e36782dc42a71ea109d059bc7&imgtype=jpg&er=1&src=http://5b0988e595225.cdn.sohucs.com/images/20171112/2379ca6cffae4988acf804438e03d096.jpeg" alt="test"></p>
-<p>&nbsp;</p>
-<h1 id="Hyperlink"><a href="#Hyperlink" class="headerlink" title="Hyperlink"></a>Hyperlink</h1><pre><code>[description](the url)</code></pre>
+![test](https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1598804661&amp;di=8a2a051e36782dc42a71ea109d059bc7&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171112%2F2379ca6cffae4988acf804438e03d096.jpeg)
+</code></pre>
+<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1598804661&amp;di=8a2a051e36782dc42a71ea109d059bc7&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171112%2F2379ca6cffae4988acf804438e03d096.jpeg" alt="test" /></p>
+<p> </p>
+<h1 id="hyperlink"><a class="markdownIt-Anchor" href="#hyperlink"></a> Hyperlink</h1>
+<pre class="highlight"><code class="">[description](the url)
+</code></pre>
 <p><a href="https://ricciz.github.io/">my personal page</a></p>
-<p>&nbsp;</p>
-<h1 id="List"><a href="#List" class="headerlink" title="List"></a>List</h1><h3 id="auto-numbering-and-aligning-lists"><a href="#auto-numbering-and-aligning-lists" class="headerlink" title="auto numbering and aligning lists"></a>auto numbering and aligning lists</h3><ol>
+<p> </p>
+<h1 id="list"><a class="markdownIt-Anchor" href="#list"></a> List</h1>
+<h3 id="auto-numbering-and-aligning-lists"><a class="markdownIt-Anchor" href="#auto-numbering-and-aligning-lists"></a> auto numbering and aligning lists</h3>
+<ol>
 <li>test</li>
 <li>test</li>
 <li>test</li>
 </ol>
-<h3 id="“-“-or-“-“-make-lists-with-no-orders"><a href="#“-“-or-“-“-make-lists-with-no-orders" class="headerlink" title="“-“ or “*“ make lists with no orders"></a>“-“ or “*“ make lists with no orders</h3><ul>
+<h3 id="-or-make-lists-with-no-orders"><a class="markdownIt-Anchor" href="#-or-make-lists-with-no-orders"></a> “-” or “*” make lists with no orders</h3>
+<ul>
 <li>test point</li>
 </ul>
 <ul>
 <li>test point</li>
 </ul>
-<p>&nbsp;</p>
-<h1 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h1><ul>
+<p> </p>
+<h1 id="table"><a class="markdownIt-Anchor" href="#table"></a> Table</h1>
+<ul>
 <li>use “|” to divide cols</li>
 <li>use as many “–” as the col nums as the placeholder to make a solid line and bold the headline</li>
 </ul>
-<pre><code>name|gender|birthday
+<pre class="highlight"><code class="">name|gender|birthday
 --|--|--
 Ricci|Male|0222
-Connie|Female|0822</code></pre>
+Connie|Female|0822
+</code></pre>
 <table>
 <thead>
 <tr>
@@ -434,7 +458,8 @@ Connie|Female|0822</code></pre>
 <th>birthday</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>Ricci</td>
 <td>Male</td>
 <td>0222</td>
@@ -444,23 +469,33 @@ Connie|Female|0822</code></pre>
 <td>Female</td>
 <td>0822</td>
 </tr>
-</tbody></table>
-<p>&nbsp;</p>
-<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><pre><code>write your code within ``` then there will be a specially designed place for your code</code></pre>
-<p>&nbsp;</p>
-<h1 id="Special-Codes"><a href="#Special-Codes" class="headerlink" title="Special Codes"></a>Special Codes</h1><pre><code>tab: &amp;emsp;
-enter: &amp;nbsp;</code></pre>
-<p>&nbsp;</p>
-<h1 id="Math"><a href="#Math" class="headerlink" title="Math"></a>Math</h1><pre><code>$ is inline $A+B=C$
+</tbody>
+</table>
+<p> </p>
+<h1 id="code"><a class="markdownIt-Anchor" href="#code"></a> Code</h1>
+<pre class="highlight"><code class="">write your code within ``` then there will be a specially designed place for your code
+</code></pre>
+<p> </p>
+<h1 id="special-codes"><a class="markdownIt-Anchor" href="#special-codes"></a> Special Codes</h1>
+<pre class="highlight"><code class="">tab: &amp;emsp;
+enter: &amp;nbsp;
+</code></pre>
+<p> </p>
+<h1 id="math"><a class="markdownIt-Anchor" href="#math"></a> Math</h1>
+<pre class="highlight"><code class="">$ is inline $A+B=C$
 
 $$ is block and auto centered
 
 $$
 a^2+b^2=c^2\\
 i_1+i_2=i_3
-$$</code></pre>
-<p>test inline equation $A+B=C$</p>
-<p>test block and centered<br>$$<br>a^2+b^2=c^2\<br>i_1+i_2=i_3<br>$$</p>
+$$
+</code></pre>
+<p>test inline equation <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mo>=</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">A+B=C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span></p>
+<p>test block and centered</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><mspace linebreak="newline"></mspace><msub><mi>i</mi><mn>1</mn></msub><mo>+</mo><msub><mi>i</mi><mn>2</mn></msub><mo>=</mo><msub><mi>i</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">a^2+b^2=c^2\\
+i_1+i_2=i_3
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9474379999999999em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:0.80952em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.80952em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.80952em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
 <p>more info is on <a target="_blank" rel="noopener" href="https://katex.org/docs/supported.html">katex</a></p>
 
             </div>
@@ -687,13 +722,6 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
 </main>
 
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
 
 
 
