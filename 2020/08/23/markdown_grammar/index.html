@@ -464,16 +464,20 @@
 <p>this is a note for the grammar of markdown</p>
 </blockquote>
 <p>&nbsp;</p>
-<h1 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># test title</span><br><span class="line">## test subtitle</span><br><span class="line">### test subsubtitle</span><br><span class="line">#### test subsubsubtitle</span><br></pre></td></tr></table></figure>
-
+<h1 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h1><pre><code># test title
+## test subtitle
+### test subsubtitle
+#### test subsubsubtitle</code></pre>
 <h1 id="test-title"><a href="#test-title" class="headerlink" title="test title"></a>test title</h1><h2 id="test-subtitle"><a href="#test-subtitle" class="headerlink" title="test subtitle"></a>test subtitle</h2><h3 id="test-subsubtitle"><a href="#test-subsubtitle" class="headerlink" title="test subsubtitle"></a>test subsubtitle</h3><h4 id="test-subsubsubtitle"><a href="#test-subsubsubtitle" class="headerlink" title="test subsubsubtitle"></a>test subsubsubtitle</h4><p>&nbsp;</p>
-<h1 id="Line"><a href="#Line" class="headerlink" title="Line"></a>Line</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
-
+<h1 id="Line"><a href="#Line" class="headerlink" title="Line"></a>Line</h1><pre><code>---
+***</code></pre>
 <hr>
 <hr>
 <p>&nbsp;</p>
-<h1 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">bold **test**</span><br><span class="line">italic *test*</span><br><span class="line">italic and bold ***test***</span><br><span class="line">deletion line ~~test~~</span><br></pre></td></tr></table></figure>
-
+<h1 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h1><pre><code>bold **test**
+italic *test*
+italic and bold ***test***
+deletion line ~~test~~</code></pre>
 <ul>
 <li>bold <strong>test</strong></li>
 <li>italic <em>test</em></li>
@@ -485,12 +489,12 @@
 <p>use “&gt;” to create ref</p>
 </blockquote>
 <p>&nbsp;</p>
-<h1 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![name_of_the_image](the url or the local address of the image)</span><br><span class="line"></span><br><span class="line">![test](https:&#x2F;&#x2F;timgsa.baidu.com&#x2F;timg?image&amp;quality&#x3D;80&amp;size&#x3D;b9999_10000&amp;sec&#x3D;1598804661&amp;di&#x3D;8a2a051e36782dc42a71ea109d059bc7&amp;imgtype&#x3D;jpg&amp;er&#x3D;1&amp;src&#x3D;http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171112%2F2379ca6cffae4988acf804438e03d096.jpeg)</span><br></pre></td></tr></table></figure>
+<h1 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h1><pre><code>![name_of_the_image](the url or the local address of the image)
 
+![test](https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1598804661&amp;di=8a2a051e36782dc42a71ea109d059bc7&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171112%2F2379ca6cffae4988acf804438e03d096.jpeg)</code></pre>
 <p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598804661&di=8a2a051e36782dc42a71ea109d059bc7&imgtype=jpg&er=1&src=http://5b0988e595225.cdn.sohucs.com/images/20171112/2379ca6cffae4988acf804438e03d096.jpeg" alt="test"></p>
 <p>&nbsp;</p>
-<h1 id="Hyperlink"><a href="#Hyperlink" class="headerlink" title="Hyperlink"></a>Hyperlink</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[description](the url)</span><br></pre></td></tr></table></figure>
-
+<h1 id="Hyperlink"><a href="#Hyperlink" class="headerlink" title="Hyperlink"></a>Hyperlink</h1><pre><code>[description](the url)</code></pre>
 <p><a href="https://ricciz.github.io/">my personal page</a></p>
 <p>&nbsp;</p>
 <h1 id="List"><a href="#List" class="headerlink" title="List"></a>List</h1><h3 id="auto-numbering-and-aligning-lists"><a href="#auto-numbering-and-aligning-lists" class="headerlink" title="auto numbering and aligning lists"></a>auto numbering and aligning lists</h3><ol>
@@ -509,7 +513,10 @@
 <li>use “|” to divide cols</li>
 <li>use as many “–” as the col nums as the placeholder to make a solid line and bold the headline</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">name|gender|birthday</span><br><span class="line">--|--|--</span><br><span class="line">Ricci|Male|0222</span><br><span class="line">Connie|Female|0822</span><br></pre></td></tr></table></figure>
+<pre><code>name|gender|birthday
+--|--|--
+Ricci|Male|0222
+Connie|Female|0822</code></pre>
 <table>
 <thead>
 <tr>
@@ -530,10 +537,23 @@
 </tr>
 </tbody></table>
 <p>&nbsp;</p>
-<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">write your code within &#96;&#96;&#96; then there will be a specially designed place for your code</span><br></pre></td></tr></table></figure>
-
+<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><pre><code>write your code within ``` then there will be a specially designed place for your code</code></pre>
 <p>&nbsp;</p>
-<h1 id="Special-Codes"><a href="#Special-Codes" class="headerlink" title="Special Codes"></a>Special Codes</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tab: &amp;emsp;</span><br><span class="line">enter: &amp;nbsp;</span><br></pre></td></tr></table></figure>
+<h1 id="Special-Codes"><a href="#Special-Codes" class="headerlink" title="Special Codes"></a>Special Codes</h1><pre><code>tab: &amp;emsp;
+enter: &amp;nbsp;</code></pre>
+<p>&nbsp;</p>
+<h1 id="Math"><a href="#Math" class="headerlink" title="Math"></a>Math</h1><pre><code>$ is inline $A+B=C$
+
+$$ is block and auto centered
+
+$$
+a^2+b^2=c^2\\
+i_1+i_2=i_3
+$$</code></pre>
+<p>test inline equation $A+B=C$</p>
+<p>test block and centered<br>$$<br>a^2+b^2=c^2\<br>i_1+i_2=i_3<br>$$</p>
+<p>more info is on <a target="_blank" rel="noopener" href="https://katex.org/docs/supported.html">katex</a></p>
+
             </div>
             <hr/>
 
